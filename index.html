@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Twitter</title> 
+      <link rel="stylesheet" href="./twitter.css">
+    </head>
+
+    <body class="bd">
+        <div class="main-container">
+            <img class="img" src="./twitter.png" height="0rem" width="rem" />
+            <div class="input-container">
+              <h1 class="h1">Happening Now</h1>
+              <h3 class="h3" >Join today.</h3>
+              <button class="sign-in" id="google">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP._LotbG1SgjcwdzpQ4pBu7QHaHa&pid=Api&P=0&h=220"
+                  height="15rem"
+                  width="15rem"
+                />
+                Sign up with Google
+              </button>
+              <button class="sign-in" id="apple" style="font-size: medium; font-weight: 600; color: black;">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.9g4dkKVAUyciOuDI9_vEYQHaHa&pid=Api&P=0&h=220"
+                  height="30rem"
+                  width="30rem"
+                />
+                Sign up with Apple
+              </button>
+              <div class="divider">
+                  <hr>
+                  <div class="text">or</div> 
+                  <hr>
+            </div>
+            <button class="button" id="createaccount">Create account</button>
+            <p class="p-class" id="sign in">By signing up, you agree to the <a href="https://twitter.com/en/tos">Terms of Service </a>,and <a href="https://twitter.com/en/tos">Privacy Policy</a>, including <a href="https://twitter.com/en/tos">Cookie use</a>.</p>
+            <h2 style="font-size:1.5rem; margin-top:1.5rem;">Already have a account?</h2>
+            <button class="sign-in" style="color: black; font-size: medium; font-weight: 600;">Sign in</button>
+          </div>
+          
+        </body>
+        <script>
+            let googleButton = document.getElementById('google');
+           googleButton.addEventListener('click', function() {
+               alert('Sign up with Google');
+           });
+   
+           let appleButton = document.getElementById('apple');
+           appleButton.addEventListener('click', function() {
+               alert('Sign up with Apple');
+           });
+   
+           let createAccountButton = document.getElementById('createaccount');
+           createAccountButton.addEventListener('click', function() {
+               alert('Create your account');
+           });
+   
+           let signInButton = document.getElementById('signin');
+           signInButton.addEventListener('click', function() {
+               alert('Welcome to the sign-in page');
+           });
+   
+             
+       </script>
+        </html>
